@@ -373,6 +373,17 @@ form {
   }
 }
 
+@media(max-width: 450px) {
+  div.content-about a.btn{
+  padding: 1rem 2.5rem;
+  border: var(--border);
+  border-radius: 2rem;
+  font-size: 1.8rem;
+  }
+    
+  
+}
+
 @media (max-width: 450px) {
   .about .img-about img {
     width: 35rem;
@@ -415,3 +426,4 @@ form {
     right: 0;
   }
 }
+
