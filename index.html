@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/5f36610e65.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="go-top">
+      <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    <header>
+      <nav>
+        <label class="burger" for="burger">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="burger" />
+        <ul>
+          <li><a class="active" href="./index.html">Home</a></li>
+          <li><a href="Images.html">Images</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Services">Services</a></li>
+          <li><a href="#Gallery">Gallery</a></li>
+          <li><a href="#Contacts">Contacts</a></li>
+        </ul>
+      </nav>
+
+      <div class="container">
+        <div class="home-content">
+          <h3>Travel Agency</h3>
+          <h2>Wonderlust</h2>
+          <h1>About Us</h1>
+          <a href="#" class="btn">learn More</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="about" id="About">
+      <div class="img-about">
+        <img src="images/img2 about.jpg" />
+      </div>
+
+      <div class="content-about">
+        <h2>About US</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+          reprehenderit eligendi recusandae iusto, alias nihil voluptatem
+          suscipit sunt doloremque. Numquam laborum minima aperiam officia minus
+          harum odit nulla asperiores ea.
+        </p>
+        <a href="#" class="btn">learn More</a>
+      </div>
+    </section>
+
+    <section class="Services" id="Services">
+      <h2 class="heading">Our <span>Services</span></h2>
+      <div class="box-container">
+        <div class="box-item">
+          <div class="top">
+            <img src="images/img3.jpg" />
+            <h4>Tours</h4>
+          </div>
+          <div class="bottom">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+              tempore aliquam beatae enim autem illo amet quisquam sit facilis
+              porro!
+            </p>
+            <a href="#" class="btn">more</a>
+          </div>
+        </div>
+        <div class="box-item">
+          <div class="top">
+            <img src="images/img4. hiking.jpg" />
+            <h4>Hikking</h4>
+          </div>
+          <div class="bottom">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
+              nihil blanditiis dignissimos fugit soluta et accusamus temporibus
+              in asperiores repellat.
+            </p>
+            <a href="#" class="btn">more</a>
+          </div>
+        </div>
+        <div class="box-item">
+          <div class="top">
+            <img src="images/img5 Travel.jpg" />
+            <h4>Travel</h4>
+          </div>
+          <div class="bottom">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+              consequuntur excepturi saepe quibusdam! Fugiat, rerum! Voluptatum
+              quo tenetur maxime quas?
+            </p>
+            <a href="#" class="btn">more</a>
+          </div>
+        </div>
+        <div class="box-item">
+          <div class="top">
+            <img src="images/img6 support.jpg" />
+            <h4>Support</h4>
+          </div>
+          <div class="bottom">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur eligendi voluptatibus optio velit perferendis quod
+              quos saepe quam ducimus minima.
+            </p>
+            <a href="#" class="btn">more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gallery" id="Gallery">
+      <h2 class="heading"><span>Outdoor</span>Recreation</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla eius
+        iusto modi earum nobis debitis accusamus fugit, odio labore sed.
+      </p>
+      <div class="img-container">
+        <div class="img-box">
+          <img src="images/gallery_1.jpg" />
+        </div>
+        <div class="img-box">
+          <img src="images/gallery_2.jpg" />
+        </div>
+        <div class="img-box">
+          <img src="images/gallery_3.jpg" />
+        </div>
+        <div class="img-box">
+          <img src="images/gallery_4.jpg" />
+        </div>
+        <div class="img-box">
+          <img src="images/gallery_5.jpg" />
+        </div>
+        <div class="img-box">
+          <img src="images/gallery_6.jpg" />
+        </div>
+        <div class="img-box">
+          <img src="images/gallery_7.jpg" />
+        </div>
+        <div class="img-box">
+          <img src="images/gallery_8.jpg" />
+        </div>
+      </div>
+    </section>
+    <section class="contacts" id="Contacts">
+      <h2 class="heading"><span>Contact</span>Us</h2>
+      <form action="https://api.everrest.educata.dev/echo/html" method="post">
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          autocomplete="off"
+          placeholder="Enter your name"
+          value="Joe"
+        />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="Enter your email"
+          value="joe.john@gmail.com"
+        />
+
+        <label for="msg">Massage</label>
+        <textarea name="msg" id="msg" rows="10" required></textarea>
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+  </body>
+</html>
