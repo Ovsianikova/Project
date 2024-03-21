@@ -375,7 +375,7 @@ form {
 
 @media(max-width: 450px) {
   div.content-about a.btn{
-  padding: 1rem 2.5rem;
+  padding: 2rem;
   font-size: 10px;
   }
     
