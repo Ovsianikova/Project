@@ -415,3 +415,10 @@ form {
     right: 0;
   }
 }
+
+
+@media (max-width: 450px) {
+div.container2 div.box a img{
+  width: 35rem;
+}
+}
