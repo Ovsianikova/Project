@@ -373,31 +373,25 @@ form {
   }
 }
 
-@media(max-width: 450px) {
-  div.content-about a.btn{
-  max-width: 600px;
-  }
-    
-  
-}
 
 @media (max-width: 450px) {
   .about .img-about img {
     width: 35rem;
   }
   .about .content-about h2 {
-    font-size: 10px;
+    font-size: clamp(1.2rem, 1vw + 2rem, 2.2rem);
     padding: 2rem;
   }
 
   .about .content-about .btn {
     padding: 0.8rem 1rem;
+
   }
 }
 
 @media (max-width: 450px) {
   .about .content-about .btn {
-    padding: 0.5rem 8rem;
+    padding: 0.5rem .8rem;
   }
 }
 
