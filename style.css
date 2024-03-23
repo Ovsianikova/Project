@@ -367,6 +367,26 @@ form {
   cursor: pointer;
 }
 
+div.container2{
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+div.container2 div.box{
+  margin: 1rem;
+  width: 30rem;
+  height: 20rem;
+}
+
+div.container2 div.box a img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border: var(--border);
+}
+
 @media (max-width: 991px) {
   form {
     width: 100%;
@@ -420,10 +440,5 @@ form {
 @media (max-width: 450px) {
 div.container2 div.box a img{
   width: 35rem;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
 }
 }
