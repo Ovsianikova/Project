@@ -420,5 +420,10 @@ form {
 @media (max-width: 450px) {
 div.container2 div.box a img{
   width: 35rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 }
